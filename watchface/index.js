@@ -308,32 +308,6 @@ try {
           }
         );
 
-        normal_heart_rate_text_text_img = hmUI.createWidget(
-          hmUI.widget.TEXT_IMG,
-          {
-            x: 316,
-            y: 110,
-            font_array: [
-              "107.png",
-              "108.png",
-              "109.png",
-              "110.png",
-              "111.png",
-              "112.png",
-              "113.png",
-              "114.png",
-              "115.png",
-              "116.png",
-            ],
-            padding: false,
-            h_space: 1,
-            invalid_image: "58.png",
-            align_h: hmUI.align.CENTER_H,
-            type: hmUI.data_type.HEART,
-            show_level: hmUI.show_level.ONLY_NORMAL,
-          }
-        );
-
         normal_heart_rate_text_separator_img = hmUI.createWidget(
           hmUI.widget.IMG,
           {
@@ -522,22 +496,46 @@ try {
           }
         );
 
+        // COUNTERS: STEPS, CALORIES, HEART RATE (in this order)
+
+        normal_step_current_text_img = hmUI.createWidget(hmUI.widget.TEXT_IMG, {
+          x: 90,
+          y: 110,
+          font_array: [
+            "107.png",
+            "108.png",
+            "109.png",
+            "110.png",
+            "111.png",
+            "112.png",
+            "113.png",
+            "114.png",
+            "115.png",
+            "116.png",
+          ],
+          padding: false,
+          h_space: 3,
+          align_h: hmUI.align.CENTER_H,
+          type: hmUI.data_type.STEP,
+          show_level: hmUI.show_level.ONLY_NORMAL,
+        });
+
         normal_calories_text_text_img = hmUI.createWidget(
           hmUI.widget.TEXT_IMG,
           {
             x: 203,
             y: 64,
             font_array: [
-              "48.png",
-              "49.png",
-              "50.png",
-              "51.png",
-              "52.png",
-              "53.png",
-              "54.png",
-              "55.png",
-              "56.png",
-              "57.png",
+              "107.png",
+              "108.png",
+              "109.png",
+              "110.png",
+              "111.png",
+              "112.png",
+              "113.png",
+              "114.png",
+              "115.png",
+              "116.png",
             ],
             padding: false,
             h_space: 1,
@@ -547,6 +545,34 @@ try {
             show_level: hmUI.show_level.ONLY_NORMAL,
           }
         );
+
+        normal_heart_rate_text_text_img = hmUI.createWidget(
+          hmUI.widget.TEXT_IMG,
+          {
+            x: 316,
+            y: 110,
+            font_array: [
+              "107.png",
+              "108.png",
+              "109.png",
+              "110.png",
+              "111.png",
+              "112.png",
+              "113.png",
+              "114.png",
+              "115.png",
+              "116.png",
+            ],
+            padding: false,
+            h_space: 1,
+            invalid_image: "58.png",
+            align_h: hmUI.align.CENTER_H,
+            type: hmUI.data_type.HEART,
+            show_level: hmUI.show_level.ONLY_NORMAL,
+          }
+        );
+
+        // SEPARATORS (TODO: understand what it is and rename things accordingly)
 
         normal_battery_text_separator_img = hmUI.createWidget(hmUI.widget.IMG, {
           x: 197,
@@ -687,28 +713,6 @@ try {
             show_level: hmUI.show_level.ONLY_NORMAL,
           }
         );
-
-        normal_step_current_text_img = hmUI.createWidget(hmUI.widget.TEXT_IMG, {
-          x: 90,
-          y: 110,
-          font_array: [
-            "107.png",
-            "108.png",
-            "109.png",
-            "110.png",
-            "111.png",
-            "112.png",
-            "113.png",
-            "114.png",
-            "115.png",
-            "116.png",
-          ],
-          padding: false,
-          h_space: 3,
-          align_h: hmUI.align.CENTER_H,
-          type: hmUI.data_type.STEP,
-          show_level: hmUI.show_level.ONLY_NORMAL,
-        });
 
         normal_step_current_separator_img = hmUI.createWidget(hmUI.widget.IMG, {
           x: 92,
