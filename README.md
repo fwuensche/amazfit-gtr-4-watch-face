@@ -14,3 +14,4 @@ Here are some ideas for contributions:
 - feat: add a script to automate the generation of a QR code for the watchface
 - chore: improve the readme to explain how to live preview the watchface
 - chore: rename images to more meaningful names, instead of just numbers
+- feat: `npm run zip` should create a new versioned zip file and delete previous ones
