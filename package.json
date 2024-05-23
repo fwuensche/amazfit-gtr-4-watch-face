@@ -1,0 +1,12 @@
+{
+  "name": "amazfit-gtr-4-watch-face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r amazfit-gtr-4-watch-face.zip . -x *.git*"
+  },
+  "author": "",
+  "license": "ISC"
+}
