@@ -40,8 +40,8 @@ try {
     let normal_system_lock_img = "";
     let normal_system_clock_img = "";
     let normal_date_img_date_week_img = "";
-    let normal_battery_image_progress_img_level = "";
-    let normal_battery_text_text_img = "";
+    let normal_calories_image_progress_img_level = "";
+    let normal_calories_text_text_img = "";
     let normal_battery_text_separator_img = "";
     let normal_sun_high_text_img = "";
     let normal_sun_high_separator_img = "";
@@ -502,7 +502,7 @@ try {
           }
         );
 
-        normal_battery_image_progress_img_level = hmUI.createWidget(
+        normal_calories_image_progress_img_level = hmUI.createWidget(
           hmUI.widget.IMG_LEVEL,
           {
             x: 183,
@@ -522,28 +522,31 @@ try {
           }
         );
 
-        normal_battery_text_text_img = hmUI.createWidget(hmUI.widget.TEXT_IMG, {
-          x: 203,
-          y: 64,
-          font_array: [
-            "48.png",
-            "49.png",
-            "50.png",
-            "51.png",
-            "52.png",
-            "53.png",
-            "54.png",
-            "55.png",
-            "56.png",
-            "57.png",
-          ],
-          padding: false,
-          h_space: 1,
-          invalid_image: "98.png",
-          align_h: hmUI.align.CENTER_H,
-          type: hmUI.data_type.CAL,
-          show_level: hmUI.show_level.ONLY_NORMAL,
-        });
+        normal_calories_text_text_img = hmUI.createWidget(
+          hmUI.widget.TEXT_IMG,
+          {
+            x: 203,
+            y: 64,
+            font_array: [
+              "48.png",
+              "49.png",
+              "50.png",
+              "51.png",
+              "52.png",
+              "53.png",
+              "54.png",
+              "55.png",
+              "56.png",
+              "57.png",
+            ],
+            padding: false,
+            h_space: 1,
+            invalid_image: "98.png",
+            align_h: hmUI.align.CENTER_H,
+            type: hmUI.data_type.CAL,
+            show_level: hmUI.show_level.ONLY_NORMAL,
+          }
+        );
 
         normal_battery_text_separator_img = hmUI.createWidget(hmUI.widget.IMG, {
           x: 197,
