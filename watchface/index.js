@@ -517,7 +517,7 @@ try {
               "97.png",
             ],
             image_length: 7,
-            type: hmUI.data_type.CAL,
+            type: hmUI.data_type.BATTERY,
             show_level: hmUI.show_level.ONLY_NORMAL,
           }
         );
