@@ -1,11 +1,11 @@
 {
   "name": "amazfit-gtr-4-watch-face",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "zip -r amazfit-gtr-4-watch-face.zip . -x *.git*"
+    "zip": "npm version patch --no-git-tag-version && rm *.zip && zip -r amazfit-gtr-4-watch-face-${npm_package_version}.zip . -x *.git*"
   },
   "author": "",
   "license": "ISC"
