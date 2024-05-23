@@ -517,7 +517,7 @@ try {
               "97.png",
             ],
             image_length: 7,
-            type: hmUI.data_type.BATTERY,
+            type: hmUI.data_type.CAL,
             show_level: hmUI.show_level.ONLY_NORMAL,
           }
         );
@@ -541,7 +541,7 @@ try {
           h_space: 1,
           invalid_image: "98.png",
           align_h: hmUI.align.CENTER_H,
-          type: hmUI.data_type.BATTERY,
+          type: hmUI.data_type.CAL,
           show_level: hmUI.show_level.ONLY_NORMAL,
         });
 
