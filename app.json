@@ -12,17 +12,13 @@
     "vender": "zepp",
     "description": "",
     "icon": "1.png",
-    "cover": [
-      "1.png"
-    ],
+    "cover": ["1.png"],
     "extraInfo": {
       "madeBy": 1,
       "fromZoom": false
     }
   },
-  "permissions": [
-    "gps"
-  ],
+  "permissions": ["gps"],
   "runtime": {
     "apiVersion": {
       "compatible": "1.0.0",
